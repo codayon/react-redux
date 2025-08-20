@@ -1,5 +1,11 @@
-import { Counter } from "./features/counter/counter";
+import { Counter } from "./features/counter/Counter";
 
-export default function App() {
-  return <Counter />;
-}
+const App = () => {
+  return (
+    <>
+      <Counter />
+    </>
+  );
+};
+
+export default App;
